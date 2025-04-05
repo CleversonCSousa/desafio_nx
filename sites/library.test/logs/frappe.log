@@ -16,3 +16,18 @@ Form Dict: {'doc': '{"docstatus":0,"doctype":"Appointment","name":"new-appointme
 2025-04-04 14:55:18,188 ERROR frappe New Exception collected in error log
 Site: library.test
 Form Dict: {'doc': '{"docstatus":0,"doctype":"Appointment","name":"new-appointment-crjchlkiap","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"Douglas","start_date":"2025-04-08 14:30:00","duration":3600,"description":"Venda de doce","seller":"Administrator","end_date":"2025-04-08T17:30:00.000Z"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-05 10:45:05,714 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Appointment","name":"new-appointment-xghbonjmgw","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"dada","description":"dasdsada","start_date":"2025-04-08 10:44:54","duration":3600,"seller":"Administrator","end_date":"2025-04-11T01:44:54.000Z"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-05 11:06:56,521 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doctype': 'Appointment', 'filters': '{"seller":"Administrator","start_date":["<","2025-04-0812:59:43"],"end_date":[">","2025-04-08 10:59:43"],"name":["!=","ac5neblaj0"]}', 'fields': '["name"]', 'cmd': 'frappe.client.get_list'}
+2025-04-05 11:06:56,552 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doc': '{"name":"ac5neblaj0","owner":"Administrator","creation":"2025-04-05 10:59:54.113217","modified":"2025-04-05 11:05:28.289362","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"sdad","start_date":"2025-04-08 10:59:43","end_date":"2025-04-0812:59:43","duration":7200,"description":"dadsadadsdsdsddddsd","seller":"Administrator","status":"Scheduled","doctype":"Appointment","__last_sync_on":"2025-04-05T14:06:51.146Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-05 11:08:50,529 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doctype': 'Appointment', 'filters': '{"seller":"Administrator","start_date":["<","2025-04-0811:59:43"],"end_date":[">","2025-04-08 10:59:43"],"name":["!=","ac5neblaj0"]}', 'fields': '["name"]', 'cmd': 'frappe.client.get_list'}
+2025-04-05 11:08:50,550 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doc': '{"name":"ac5neblaj0","owner":"Administrator","creation":"2025-04-05 10:59:54.113217","modified":"2025-04-05 11:05:28.289362","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"sdad","start_date":"2025-04-08 10:59:43","end_date":"2025-04-0811:59:43","duration":3600,"description":"dadsadadsdsdsddddsdds","seller":"Administrator","status":"Scheduled","doctype":"Appointment","__last_sync_on":"2025-04-05T14:08:48.684Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
