@@ -73,6 +73,7 @@
 2025-04-05 08:32:54,363 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
 2025-04-05 08:32:54,363 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
 2025-04-05 08:32:54,366 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+<<<<<<< HEAD
 2025-04-05 10:41:39,237 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
 2025-04-05 10:41:39,396 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
 2025-04-05 10:41:39,399 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
@@ -88,3 +89,10 @@
 2025-04-05 11:13:33,732 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
 2025-04-05 11:13:33,735 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
 2025-04-05 11:13:33,740 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+=======
+2025-04-05 08:43:13,167 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-05 08:43:13,318 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-05 08:43:13,319 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-05 08:43:13,322 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-05 08:43:13,326 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+>>>>>>> db5339f4e8ca84e4b7ab66d1503e261e76754e21
