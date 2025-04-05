@@ -1,0 +1,198 @@
+2025-04-04 13:22:16,134 Worker rq:worker:7d560cdfed6049b982c67073f3c1bc04 started with PID 22340, version 2.2.0
+2025-04-04 13:22:16,134 Subscribing to channel rq:pubsub:7d560cdfed6049b982c67073f3c1bc04
+2025-04-04 13:22:16,134 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-04 13:22:16,135 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 13:22:16,135 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 13:22:16,136 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 13:22:27,727 Worker 7d560cdfed6049b982c67073f3c1bc04 [PID 22340]: warm shut down requested
+2025-04-04 13:22:27,729 Unsubscribing from channel rq:pubsub:7d560cdfed6049b982c67073f3c1bc04
+2025-04-04 13:27:40,566 Worker rq:worker:9b988900bba54950826dfe5579b5045a started with PID 23996, version 2.2.0
+2025-04-04 13:27:40,566 Subscribing to channel rq:pubsub:9b988900bba54950826dfe5579b5045a
+2025-04-04 13:27:40,566 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-04 13:27:40,566 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 13:27:40,567 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 13:27:40,567 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 13:28:37,363 Worker 9b988900bba54950826dfe5579b5045a [PID 23996]: warm shut down requested
+2025-04-04 13:28:37,363 Unsubscribing from channel rq:pubsub:9b988900bba54950826dfe5579b5045a
+2025-04-04 13:28:38,788 Worker rq:worker:f3e9eb6457b04489b2f43008e3b9b96a started with PID 24712, version 2.2.0
+2025-04-04 13:28:38,788 Subscribing to channel rq:pubsub:f3e9eb6457b04489b2f43008e3b9b96a
+2025-04-04 13:28:38,789 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-04 13:28:38,789 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 13:28:38,790 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 13:28:38,790 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 13:28:40,329 Worker f3e9eb6457b04489b2f43008e3b9b96a [PID 24712]: warm shut down requested
+2025-04-04 13:28:40,330 Unsubscribing from channel rq:pubsub:f3e9eb6457b04489b2f43008e3b9b96a
+2025-04-04 13:29:13,315 Worker rq:worker:59403b89f3df4de0ac164c1bafcf3a46 started with PID 25024, version 2.2.0
+2025-04-04 13:29:13,315 Subscribing to channel rq:pubsub:59403b89f3df4de0ac164c1bafcf3a46
+2025-04-04 13:29:13,316 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-04 13:29:13,316 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 13:29:13,317 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 13:29:13,318 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 13:42:43,450 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 13:42:43,456 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 13:42:43,460 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 13:46:45,234 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Client Script', 'name': 'Calendar View'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||755d2ec6-fc7b-4556-ab0f-978f16bcec2e)
+2025-04-04 13:46:45,288 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Client Script', 'name': 'Calendar View'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.033665s on worker 59403b89f3df4de0ac164c1bafcf3a46
+2025-04-04 13:46:45,288 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||755d2ec6-fc7b-4556-ab0f-978f16bcec2e)
+2025-04-04 13:46:45,288 Result is kept for 600 seconds
+2025-04-04 13:51:04,161 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Client Script', 'name': 'Calendar View'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||cf686164-e1d8-42ca-a218-112f1dacccc9)
+2025-04-04 13:51:04,223 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Client Script', 'name': 'Calendar View'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.050980s on worker 59403b89f3df4de0ac164c1bafcf3a46
+2025-04-04 13:51:04,223 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||cf686164-e1d8-42ca-a218-112f1dacccc9)
+2025-04-04 13:51:04,223 Result is kept for 600 seconds
+2025-04-04 13:54:51,773 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Client Script', 'name': 'Calendar View'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||f007416c-0aec-4c36-916a-ec49fd3023e7)
+2025-04-04 13:54:51,813 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Client Script', 'name': 'Calendar View'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.036133s on worker 59403b89f3df4de0ac164c1bafcf3a46
+2025-04-04 13:54:51,813 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||f007416c-0aec-4c36-916a-ec49fd3023e7)
+2025-04-04 13:54:51,813 Result is kept for 600 seconds
+2025-04-04 13:54:51,816 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 13:54:51,817 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 13:54:51,817 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 13:58:02,883 Worker 59403b89f3df4de0ac164c1bafcf3a46 [PID 25024]: warm shut down requested
+2025-04-04 13:58:02,885 Unsubscribing from channel rq:pubsub:59403b89f3df4de0ac164c1bafcf3a46
+2025-04-04 13:58:06,778 Worker rq:worker:ad15d4394e3b4cb4bbeac1a42274cb0b started with PID 43828, version 2.2.0
+2025-04-04 13:58:06,778 Subscribing to channel rq:pubsub:ad15d4394e3b4cb4bbeac1a42274cb0b
+2025-04-04 13:58:06,779 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-04 13:58:06,779 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 13:58:06,780 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 13:58:06,780 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 14:01:43,964 Worker ad15d4394e3b4cb4bbeac1a42274cb0b [PID 43828]: warm shut down requested
+2025-04-04 14:01:43,967 Unsubscribing from channel rq:pubsub:ad15d4394e3b4cb4bbeac1a42274cb0b
+2025-04-04 14:01:45,508 Worker rq:worker:65d370df26634df1a3caf9997d13766f started with PID 46478, version 2.2.0
+2025-04-04 14:01:45,508 Subscribing to channel rq:pubsub:65d370df26634df1a3caf9997d13766f
+2025-04-04 14:01:45,509 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-04 14:01:45,509 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 14:01:45,510 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 14:01:45,510 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 14:03:50,217 Worker 65d370df26634df1a3caf9997d13766f [PID 46478]: warm shut down requested
+2025-04-04 14:03:50,220 Unsubscribing from channel rq:pubsub:65d370df26634df1a3caf9997d13766f
+2025-04-04 14:04:04,148 Worker rq:worker:b0b274d26cde4212871c9900f1277c27 started with PID 47560, version 2.2.0
+2025-04-04 14:04:04,148 Subscribing to channel rq:pubsub:b0b274d26cde4212871c9900f1277c27
+2025-04-04 14:04:04,149 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-04 14:04:04,149 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 14:04:04,150 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 14:04:04,151 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 14:10:22,429 Worker b0b274d26cde4212871c9900f1277c27 [PID 47560]: warm shut down requested
+2025-04-04 14:10:22,429 Unsubscribing from channel rq:pubsub:b0b274d26cde4212871c9900f1277c27
+2025-04-04 14:10:24,266 Worker rq:worker:64d6063934034f72b410d75b558c007a started with PID 52520, version 2.2.0
+2025-04-04 14:10:24,266 Subscribing to channel rq:pubsub:64d6063934034f72b410d75b558c007a
+2025-04-04 14:10:24,266 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-04 14:10:24,267 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 14:10:24,267 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 14:10:24,268 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 14:19:46,393 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'i0bnqgb7er'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||b9153a71-854b-4e5f-aa7e-ad8c1ff8400b)
+2025-04-04 14:19:46,445 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'i0bnqgb7er'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.033626s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:19:46,445 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||b9153a71-854b-4e5f-aa7e-ad8c1ff8400b)
+2025-04-04 14:19:46,445 Result is kept for 600 seconds
+2025-04-04 14:19:46,448 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '043b3kqoa2'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||a2e1ae4e-70e7-485e-a060-8f9fd90c8435)
+2025-04-04 14:19:46,483 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '043b3kqoa2'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.031204s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:19:46,483 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||a2e1ae4e-70e7-485e-a060-8f9fd90c8435)
+2025-04-04 14:19:46,483 Result is kept for 600 seconds
+2025-04-04 14:26:31,529 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 14:26:31,534 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 14:26:31,538 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 14:32:10,379 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'prjs1ssl94'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||11c1d207-181b-4f68-a555-bb1431d9a36f)
+2025-04-04 14:32:10,418 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'prjs1ssl94'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.035224s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:32:10,419 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||11c1d207-181b-4f68-a555-bb1431d9a36f)
+2025-04-04 14:32:10,419 Result is kept for 600 seconds
+2025-04-04 14:32:10,422 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'o2vo3avsol'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||979efccc-13f7-4b19-9e5e-484ef8545365)
+2025-04-04 14:32:10,458 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'o2vo3avsol'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.032163s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:32:10,458 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||979efccc-13f7-4b19-9e5e-484ef8545365)
+2025-04-04 14:32:10,458 Result is kept for 600 seconds
+2025-04-04 14:32:10,461 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'nss5toppqq'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||80293597-df71-44c5-873b-dfe1118ac5cd)
+2025-04-04 14:32:10,494 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'nss5toppqq'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.030262s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:32:10,495 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||80293597-df71-44c5-873b-dfe1118ac5cd)
+2025-04-04 14:32:10,495 Result is kept for 600 seconds
+2025-04-04 14:32:10,497 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'k18e06ig4b'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||86580214-2d4b-4fe0-8016-5c80a79ce224)
+2025-04-04 14:32:10,532 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'k18e06ig4b'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.031066s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:32:10,532 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||86580214-2d4b-4fe0-8016-5c80a79ce224)
+2025-04-04 14:32:10,532 Result is kept for 600 seconds
+2025-04-04 14:34:07,744 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'rlfi3n20dc'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||7119c1e6-7fee-44a8-a4a1-53920de90387)
+2025-04-04 14:34:07,786 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'rlfi3n20dc'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.037616s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:34:07,786 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||7119c1e6-7fee-44a8-a4a1-53920de90387)
+2025-04-04 14:34:07,786 Result is kept for 600 seconds
+2025-04-04 14:36:43,627 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'sdje4svgk8'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||abc5efeb-77ee-4bca-b5f9-ad210407569f)
+2025-04-04 14:36:43,672 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'sdje4svgk8'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.040368s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:36:43,672 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||abc5efeb-77ee-4bca-b5f9-ad210407569f)
+2025-04-04 14:36:43,672 Result is kept for 600 seconds
+2025-04-04 14:36:43,675 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 14:36:43,676 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 14:36:43,676 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 14:36:43,677 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'r88rtdvqq2'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||5c898bff-55b6-4ad9-9c60-9f382351269b)
+2025-04-04 14:36:43,717 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'r88rtdvqq2'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.034849s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:36:43,717 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||5c898bff-55b6-4ad9-9c60-9f382351269b)
+2025-04-04 14:36:43,717 Result is kept for 600 seconds
+2025-04-04 14:41:20,409 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'v374jgmk0g'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||6f525f06-7866-43f3-8871-68dc7f75c6ba)
+2025-04-04 14:41:20,453 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'v374jgmk0g'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.039797s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:41:20,454 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||6f525f06-7866-43f3-8871-68dc7f75c6ba)
+2025-04-04 14:41:20,454 Result is kept for 600 seconds
+2025-04-04 14:41:20,456 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'tubu4jembr'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||2b1f302c-8d7f-4235-af32-3681bce80ea3)
+2025-04-04 14:41:20,492 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'tubu4jembr'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.031337s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:41:20,492 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||2b1f302c-8d7f-4235-af32-3681bce80ea3)
+2025-04-04 14:41:20,492 Result is kept for 600 seconds
+2025-04-04 14:43:00,235 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '0ekl0aqubv'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||095d449b-8b66-44b4-af62-6b4dcd2c0881)
+2025-04-04 14:43:00,294 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '0ekl0aqubv'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.047600s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:43:00,294 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||095d449b-8b66-44b4-af62-6b4dcd2c0881)
+2025-04-04 14:43:00,294 Result is kept for 600 seconds
+2025-04-04 14:49:45,354 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 14:49:45,359 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 14:49:45,363 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 14:52:01,434 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '57j77kufhk'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||12f821df-cdda-41ee-ae60-8e368266010f)
+2025-04-04 14:52:01,486 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '57j77kufhk'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.045117s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:52:01,486 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||12f821df-cdda-41ee-ae60-8e368266010f)
+2025-04-04 14:52:01,486 Result is kept for 600 seconds
+2025-04-04 14:58:33,152 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '929iscbu2m'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') (library.test||da74fabb-d66c-4f63-ada7-03192fbf7fb8)
+2025-04-04 14:58:33,191 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '929iscbu2m'}, method='frappe.model.delete_doc.delete_dynamic_links', site='library.test', user='Administrator') job in 0:00:00.034571s on worker 64d6063934034f72b410d75b558c007a
+2025-04-04 14:58:33,191 home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default: Job OK (library.test||da74fabb-d66c-4f63-ada7-03192fbf7fb8)
+2025-04-04 14:58:33,191 Result is kept for 600 seconds
+2025-04-04 15:05:18,209 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 15:05:18,210 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 15:05:18,211 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 15:18:48,294 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 15:18:48,298 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 15:18:48,303 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 15:32:18,398 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 15:32:18,402 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 15:32:18,406 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 15:45:48,557 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 15:45:48,562 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 15:45:48,566 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 15:59:18,713 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 15:59:18,718 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 15:59:18,722 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 16:12:48,820 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 16:12:48,825 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 16:12:48,829 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 16:26:18,954 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 16:26:18,959 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 16:26:18,963 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 16:39:49,094 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 16:39:49,099 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 16:39:49,102 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 16:53:19,246 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 16:53:19,250 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 16:53:19,255 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 17:06:49,332 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 17:06:49,337 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 17:06:49,340 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 17:20:19,448 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 17:20:19,452 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 17:20:19,457 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 17:33:49,542 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 17:33:49,547 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 17:33:49,551 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 17:47:19,693 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 17:47:19,698 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 17:47:19,702 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 18:00:49,811 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 18:00:49,816 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 18:00:49,821 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-04 18:14:19,913 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-04 18:14:19,917 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-04 18:14:19,921 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+                                                                                                                                           2025-04-05 08:32:54,612 Worker rq:worker:f163291c706c4fafbfcef6904cf09148 started with PID 6192, version 2.2.0
+2025-04-05 08:32:54,612 Subscribing to channel rq:pubsub:f163291c706c4fafbfcef6904cf09148
+2025-04-05 08:32:54,613 *** Listening on home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default, home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long...
+2025-04-05 08:32:54,613 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:short
+2025-04-05 08:32:54,614 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:default
+2025-04-05 08:32:54,615 Cleaning registries for queue: home-cleverson-Desktop-entrevistas-projeto-app-frappe-bench:long
+2025-04-05 08:34:52,172 Worker f163291c706c4fafbfcef6904cf09148 [PID 6192]: warm shut down requested
+2025-04-05 08:34:52,176 Unsubscribing from channel rq:pubsub:f163291c706c4fafbfcef6904cf09148

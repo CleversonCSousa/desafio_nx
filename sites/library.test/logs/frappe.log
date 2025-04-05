@@ -1,0 +1,18 @@
+2025-04-04 14:05:01,494 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doctype': 'Appointment', 'start': '2025-03-31 00:00:00', 'end': '2025-05-12 00:00:00', 'filters': '[]', 'field_map': '{"start":"exp_start_date","end":"exp_end_date","id":"name","title":"subject","allDay":"allDay","progress":"progress"}', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-04-04 14:10:05,325 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doctype': 'Appointment', 'start': '2025-03-31 00:00:00', 'end': '2025-05-12 00:00:00', 'filters': '[]', 'field_map': '{"id":"name","start":"start","end":"end","allDay":"all_day","convertToUserTz":"convert_to_user_tz"}', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-04-04 14:10:15,526 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doctype': 'Appointment', 'start': '2025-03-31 00:00:00', 'end': '2025-05-12 00:00:00', 'filters': '[]', 'field_map': '{"id":"name","start":"start","end":"end","allDay":"all_day","convertToUserTz":"convert_to_user_tz"}', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-04-04 14:10:26,915 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doctype': 'Appointment', 'start': '2025-03-31 00:00:00', 'end': '2025-05-12 00:00:00', 'filters': '[]', 'field_map': '{"id":"name","start":"start","end":"end","allDay":"all_day","convertToUserTz":"convert_to_user_tz"}', 'cmd': 'frappe.desk.calendar.get_events'}
+2025-04-04 14:54:27,839 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Appointment","name":"new-appointment-crjchlkiap","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"Douglas","start_date":"2025-04-08 14:30:00","duration":3600,"description":"Venda de doce","seller":"Administrator","end_date":"2025-04-08T17:30:00.000Z"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-04 14:55:18,188 ERROR frappe New Exception collected in error log
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Appointment","name":"new-appointment-crjchlkiap","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","client_name":"Douglas","start_date":"2025-04-08 14:30:00","duration":3600,"description":"Venda de doce","seller":"Administrator","end_date":"2025-04-08T17:30:00.000Z"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

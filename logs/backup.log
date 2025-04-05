@@ -1,0 +1,6 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_5f2ecb9eadb49f76 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5f2ecb9eadb49f76 | /usr/bin/gzip >> ./library.test/private/backups/20250404_180001-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-04-04 18:00:01.565671
+Config  : /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/sites/library.test/private/backups/20250404_180001-library_test-site_config_backup.json 127.0B
+Database: /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/sites/library.test/private/backups/20250404_180001-library_test-database.sql.gz 232.4KiB
+Backup for Site library.test has been successfully completed

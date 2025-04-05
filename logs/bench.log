@@ -1,0 +1,75 @@
+2025-04-04 13:21:07,348 DEBUG cd frappe-bench && python3 -m venv env
+2025-04-04 13:21:09,544 DEBUG cd frappe-bench && /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-04-04 13:21:10,670 DEBUG cd frappe-bench && /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-04-04 13:21:11,325 LOG Getting frappe
+2025-04-04 13:21:11,325 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-04-04 13:21:19,470 LOG Installing frappe
+2025-04-04 13:21:19,470 DEBUG cd /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench && /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/apps/frappe 
+2025-04-04 13:21:41,377 DEBUG cd /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/apps/frappe && yarn install --check-files
+2025-04-04 13:21:45,368 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-04-04 13:21:45,368 DEBUG cd frappe-bench && bench build
+2025-04-04 13:21:45,460 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench build
+2025-04-04 13:21:58,221 LOG setting up backups
+2025-04-04 13:21:58,226 LOG backups were set up
+2025-04-04 13:21:58,226 INFO Bench frappe-bench initialized
+2025-04-04 13:22:15,744 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-04 13:22:15,898 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-04 13:22:15,901 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-04 13:22:15,902 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+2025-04-04 13:22:15,902 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-04 13:23:22,036 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench new-app scheduling_system
+2025-04-04 13:23:22,039 LOG creating new app scheduling_system
+2025-04-04 13:23:57,692 LOG Installing scheduling_system
+2025-04-04 13:23:57,693 DEBUG cd /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench && /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/cleverson/Desktop/entrevistas/projeto/app/frappe-bench/apps/scheduling_system 
+2025-04-04 13:23:58,996 DEBUG bench build --app scheduling_system
+2025-04-04 13:23:59,083 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench build --app scheduling_system
+2025-04-04 13:24:00,038 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-04-04 13:25:19,501 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench new-site library.test
+2025-04-04 13:25:26,724 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench new-site library.test
+2025-04-04 13:26:03,502 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench new-site library.test --force
+2025-04-04 13:27:13,017 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench set-config -g developer_mode true
+2025-04-04 13:27:40,191 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-04 13:27:40,345 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+2025-04-04 13:27:40,347 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-04 13:27:40,347 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-04 13:27:40,361 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-04 13:28:38,405 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-04 13:28:38,559 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-04 13:28:38,559 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-04 13:28:38,559 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-04 13:28:38,564 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+2025-04-04 13:28:45,054 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench --site library.test list-apps
+2025-04-04 13:29:04,474 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench --site library.test install-app scheduling_system
+2025-04-04 13:29:07,879 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench --site library.test list-apps
+2025-04-04 13:29:12,941 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-04 13:29:13,093 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-04 13:29:13,094 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-04 13:29:13,096 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-04 13:29:13,096 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+2025-04-04 13:58:06,394 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-04 13:58:06,546 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-04 13:58:06,547 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-04 13:58:06,549 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-04 13:58:06,551 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+2025-04-04 14:01:45,129 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-04 14:01:45,284 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-04 14:01:45,284 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+2025-04-04 14:01:45,284 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-04 14:01:45,285 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-04 14:04:03,774 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-04 14:04:03,927 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-04 14:04:03,927 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-04 14:04:03,927 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+2025-04-04 14:04:03,927 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-04 14:10:23,883 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-04 14:10:24,039 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-04 14:10:24,039 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-04 14:10:24,040 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
+2025-04-04 14:10:24,043 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-04 18:00:01,135 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench --verbose --site all backup
+2025-04-05 08:32:47,477 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench frappe-bench
+2025-04-05 08:32:54,203 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench start
+2025-04-05 08:32:54,362 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench schedule
+2025-04-05 08:32:54,363 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench watch
+2025-04-05 08:32:54,363 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench serve --port 8000
+2025-04-05 08:32:54,366 INFO /home/cleverson/Desktop/entrevistas/projeto/venv/bin/bench worker
